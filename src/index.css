@@ -12,3 +12,11 @@ nav{
 .content h1{
   text-align: center;
   text-shadow: 1px 1px 2px rgb(238, 230, 230), 0 0 1em rgb(255, 0, 106), 0 0 0.2em rgb(255, 0, 0);}
+.search-btn{
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+label:not(:last-child){
+  margin-right: 1rem;
+}
